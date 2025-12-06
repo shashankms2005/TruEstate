@@ -1,6 +1,6 @@
 const transactionService = require('../services/transactionService');
 
-exports.getTransactions = (req, res) => {
+exports.getTransactions = async (req, res) => {
   try {
     const {
       page = 1,
@@ -32,7 +32,7 @@ exports.getTransactions = (req, res) => {
       dateEnd
     };
 
-    const result = transactionService.getFilteredTransactions(
+    const result = await transactionService.getFilteredTransactions(
       parseInt(page),
       parseInt(limit),
       filters,
@@ -47,9 +47,9 @@ exports.getTransactions = (req, res) => {
   }
 };
 
-exports.getFilterOptions = (req, res) => {
+exports.getFilterOptions = async (req, res) => {
   try {
-    const options = transactionService.getFilterOptions();
+    const options = await transactionService.getFilterOptions();
     res.json(options);
   } catch (error) {
     console.error('Error in getFilterOptions:', error);
