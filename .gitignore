@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+*.db
+sales.db
+*.csv
+data/sales_data.csv
