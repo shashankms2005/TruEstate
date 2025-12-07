@@ -3,6 +3,10 @@
 ## Overview
 A full-stack web application for managing and analyzing retail sales data with 1 million+ transaction records. Features advanced search, multi-select filtering, dynamic sorting, and pagination. Built with React frontend and Node.js/Express backend, using PostgreSQL for data persistence on Railway cloud infrastructure.
 
+### Live URLs
+- Frontend: https://tru-estate-yi26.vercel.app/
+- Backend API: https://tru-estate-ki3w.vercel.app/api/health
+
 ## Tech Stack
 
 **Frontend:**
@@ -78,7 +82,3 @@ cd TruEstate
    npm run dev
    ```
    Application runs on `http://localhost:5173`
-
-### Live URLs
-- Frontend: https://tru-estate-yi26.vercel.app/
-- Backend API: https://tru-estate-ki3w.vercel.app/api/health
