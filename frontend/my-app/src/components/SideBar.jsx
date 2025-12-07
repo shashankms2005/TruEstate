@@ -36,9 +36,9 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-64 bg-[#F4F5F7] text-black/80 h-screen fixed left-0 top-0 overflow-y-auto shadow-sm">
+    <div className="w-50 bg-[#F4F5F7] text-black/80 h-screen fixed left-0 top-0 overflow-y-auto shadow-sm">
       {/* Logo/Brand */}
-      <div className="p-4">
+      <div className="p-2">
         <div className="flex items-center gap-3 border bg-white p-2 rounded-lg shadow-sm">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">V</span>

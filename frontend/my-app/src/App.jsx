@@ -114,7 +114,7 @@ function App() {
       <Sidebar />
       
       {/* Main Content */}
-      <div className="ml-64 flex-1 p-6">
+      <div className="ml-50 flex-1 p-6">
         <Header 
           searchQuery={searchQuery}
           onSearchChange={handleSearchChange}
