@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://tru-estate-ki3w.vercel.app/api';
 
 export const fetchTransactions = async (params) => {
   const queryParams = new URLSearchParams();
