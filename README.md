@@ -81,4 +81,4 @@ cd TruEstate
 
 ### Live URLs
 - Frontend: https://tru-estate-yi26.vercel.app/
-- Backend API: https://tru-estate-ki3w.vercel.app/api
+- Backend API: https://tru-estate-ki3w.vercel.app/api/health
